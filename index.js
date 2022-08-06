@@ -1,14 +1,14 @@
 class Calculator {
-    constructor(a, b) {
-        this.a = a
-        this.b = b
+    constructor(...a) {
+        this.a = [...a]
     }
 
     sum() {
-        return a + b
+        return this.a.reduce((a, b) => a += b, 0)
     }
 
     min() {
-        return a - b
+        return this.a.reduce((a, b) => a -= b, 0)
     }
+
 }
