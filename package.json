@@ -1,0 +1,15 @@
+{
+  "name": "test_git",
+  "version": "0.0.1",
+  "description": "This is project for testing Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "js"
+  ],
+  "author": "Daniil Tolstov",
+  "license": "ISC"
+}
