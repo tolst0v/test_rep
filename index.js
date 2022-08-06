@@ -1,6 +1,7 @@
+// class Calculator have two methods: sum and min
 class Calculator {
-    constructor(...a) {
-        this.a = [...a]
+    constructor(...args) {
+        this.args = [...args]
     }
 
     sum() {
