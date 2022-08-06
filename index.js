@@ -3,13 +3,15 @@ class Calculator {
     constructor(...args) {
         this.args = [...args]
     }
-
+    
     sum() {
-        return this.a.reduce((a, b) => a += b, 0)
+        const result = this.a.reduce((a, b) => a += b, 0)
+        return result
     }
 
     min() {
-        return this.a.reduce((a, b) => a -= b, 0)
+        const result = this.a.reduce((a, b) => a -= b, 0)
+        return result
     }
 
 }
